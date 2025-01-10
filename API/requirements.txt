@@ -1,0 +1,8 @@
+Flask
+transformers
+torch
+SentencePiece
+googletrans==4.0.0-rc1
+python-Levenshtein
+fuzzywuzzy
+nltk

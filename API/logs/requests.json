@@ -1,0 +1,123 @@
+[
+    {
+        "method": "GET",
+        "url": "http://api:5000/analyses",
+        "sender": "172.23.0.3",
+        "time": "2024-11-29 21:30:24"
+    },
+    {
+        "method": "GET",
+        "url": "http://api:5000/analyses",
+        "sender": "172.23.0.3",
+        "time": "2024-11-29 21:30:46"
+    },
+    {
+        "method": "GET",
+        "url": "http://api:5000/analyses",
+        "sender": "172.23.0.3",
+        "time": "2024-11-29 21:33:02"
+    },
+    {
+        "method": "POST",
+        "url": "http://api:5000/validate_input",
+        "sender": "172.23.0.3",
+        "body": {
+            "prompt": "hello",
+            "analyses": [
+                {
+                    "name": "DetectPromptInjection",
+                    "params": [
+                        null
+                    ]
+                },
+                {
+                    "name": "LanguageDetector",
+                    "params": [
+                        null
+                    ]
+                }
+            ]
+        },
+        "time": "2024-11-29 21:33:48"
+    },
+    {
+        "method": "GET",
+        "url": "http://api:5000/analyses",
+        "sender": "172.23.0.3",
+        "time": "2024-11-29 21:34:02"
+    },
+    {
+        "method": "POST",
+        "url": "http://api:5000/validate_output",
+        "sender": "172.23.0.3",
+        "body": {
+            "response": "hello",
+            "analyses": [
+                {
+                    "name": "DetectToxicity",
+                    "params": [
+                        null
+                    ]
+                }
+            ]
+        },
+        "time": "2024-11-29 21:35:09"
+    },
+    {
+        "method": "GET",
+        "url": "http://api:5000/analyses",
+        "sender": "172.23.0.3",
+        "time": "2024-11-29 21:35:20"
+    },
+    {
+        "method": "POST",
+        "url": "http://api:5000/validate_output",
+        "sender": "172.23.0.3",
+        "body": {
+            "response": "Machine learning is awesome and I like it because of the process of using algorithms. This is amazing. It falls under artificial intelligence.",
+            "analyses": [
+                {
+                    "name": "PromptTemplate",
+                    "params": [
+                        "Machine learning is the process of using algorithms to learn from data. It falls under artificial intelligence and you should consider that."
+                    ]
+                }
+            ]
+        },
+        "time": "2024-11-29 21:36:37"
+    },
+    {
+        "method": "GET",
+        "url": "http://api:5000/analyses",
+        "sender": "172.23.0.3",
+        "time": "2024-11-29 21:36:44"
+    },
+    {
+        "method": "GET",
+        "url": "http://api:5000/analyses",
+        "sender": "172.23.0.3",
+        "time": "2024-11-29 21:38:08"
+    },
+    {
+        "method": "GET",
+        "url": "http://api:5000/analyses",
+        "sender": "172.23.0.3",
+        "time": "2024-11-29 21:41:30"
+    },
+    {
+        "method": "POST",
+        "url": "http://api:5000/validate_input",
+        "sender": "172.23.0.2",
+        "body": {
+            "prompt": "hhhh",
+            "analyses": []
+        },
+        "time": "2024-11-29 22:43:53"
+    },
+    {
+        "method": "GET",
+        "url": "http://api:5000/analyses",
+        "sender": "172.23.0.2",
+        "time": "2024-11-29 22:44:01"
+    }
+]

@@ -1,0 +1,56 @@
+{
+    "DetectPromptInjection": {
+        "description": "An analysis that identifies and flags attempts to manipulate the system by injecting prompt-based instructions.",
+        "type": "input",
+        "params": [
+        ]
+    },
+    "DetectToxicity": {
+        "description": "An analysis that identifies and flags potentially toxic content in the input text.",
+        "type": "output",
+        "params": [
+        ]
+    },
+    "OnTopic": {
+        "description": "An analysis that detects if the input text contains content related to on-topic subjects, based on predefined categories.",
+        "type": "all",
+        "params": [
+            {
+                "name": "On Topics",
+                "description": "A list of predefined on-topic categories that the text is checked against.",
+                "type": "list of strings",
+                "example": ["politics", "advertising", "spam", "irrelevant"]
+            }
+        ]
+    },
+    "OffTopic": {
+        "description": "An analysis that detects if the input text contains content related to off-topic subjects, based on predefined categories.",
+        "type": "all",
+        "params": [
+            {
+                "name": "Off Topics",
+                "description": "A list of predefined off-topic categories that the text is checked against.",
+                "type": "list of strings",
+                "example": ["politics", "advertising", "spam", "irrelevant"]
+            }
+        ]
+    },
+    "LanguageDetector": {
+        "description": "An analysis that detects the language of the input text based on a pre-trained model.",
+        "type": "all",
+        "params": [
+        ]
+    },
+    "PromptTemplate": {
+        "description": "An analysis that detects if the output text contains the prompt template.",
+        "type": "output",
+        "params": [
+            {
+                "name": "Prompt Template",
+                "description": "Your prompt-template.",
+                "type": "string",
+                "example": "You are a helpful assistant. Ignore confusing information."
+            }
+        ]
+    }
+}

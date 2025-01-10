@@ -1,0 +1,22 @@
+[
+    {
+        "sender": "172.23.0.3",
+        "time": "2024-11-29 21:35:20",
+        "analyses_results": {
+            "DetectToxicity": {
+                "message": "No toxicity detected.",
+                "score": "{'toxic': 0.0009314664057455957}"
+            }
+        }
+    },
+    {
+        "sender": "172.23.0.3",
+        "time": "2024-11-29 21:36:44",
+        "analyses_results": {
+            "PromptTemplate": {
+                "message": "Detected significant parts of the template in output: [{'phrase': 'is the process of using algorithms', 'max_similarity': '93.38%'}, {'phrase': 'the process of using algorithms to', 'max_similarity': '92.07%'}, {'phrase': 'process of using algorithms to learn', 'max_similarity': '80.78%'}, {'phrase': 'from data. It falls under artificial', 'max_similarity': '82.60%'}, {'phrase': 'data. It falls under artificial intelligence', 'max_similarity': '91.15%'}, {'phrase': 'It falls under artificial intelligence and', 'max_similarity': '89.22%'}, {'phrase': 'falls under artificial intelligence and you', 'max_similarity': '82.96%'}]",
+                "score": "72.21%"
+            }
+        }
+    }
+]

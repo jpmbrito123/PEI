@@ -1,0 +1,21 @@
+# Use a base image with Python
+FROM python:3.9
+
+# Set the working directory
+WORKDIR /app
+
+#Update pip
+RUN python -m pip install --upgrade pip
+
+# Copy the dependencies file and install them
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+# Copy the API code to the container
+COPY . .
+
+# Expose the Flask application port
+EXPOSE 5000
+
+# Command to run the API
+CMD ["python", "_init.py"]

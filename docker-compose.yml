@@ -1,0 +1,22 @@
+version: '6'
+services:
+  api:
+    build: ./API
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./API:/app
+    networks:
+      - app-network
+  ui:
+    build: ./IU
+    ports:
+      - "7001:7001"
+    volumes:
+      - ./IU:/Interface
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
