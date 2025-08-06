@@ -3,9 +3,9 @@
 
 ## Overview
 
-This project delivers a modular and configurable SDK designed to monitor and filter interactions between users and Large Language Models (LLMs), ensuring security and integrity in critical applications. Developed in partnership with **AgentifAI**, the SDK acts as a middleware layer that detects sensitive topics, malicious inputs (like prompt injections), and inappropriate outputs.
+This project delivers a modular and configurable SDK designed to monitor and filter interactions between users and Large Language Models (LLMs), ensuring security and integrity in critical applications. Developed in partnership with **AgentifAI**, the SDK acts as a middleware layer that detects sensitive topics, malicious inputs (like prompt injections) and inappropriate outputs.
 
-It supports both Portuguese and English, offering contextual validation, toxicity analysis, and customizable topic filtering.
+It supports both Portuguese and English, offering contextual validation, toxicity analysis and customizable topic filtering.
 
 ## Objectives
 
